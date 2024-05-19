@@ -9,12 +9,13 @@
       margin: 0;
       padding: 0;
     }
+
     body {
       font-family: Arial, sans-serif;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
+      
       height: 100vh;
       width: 100%;
       background-color: white;
@@ -28,26 +29,12 @@
     .foto {
       width: 100%;
       height: auto;
+      margin-left: -15px;
     }
-    .button-container {
-      position: absolute;
-      top: 26%;
-      left: 57%;
-      transform: translate(-50%, -50%);
-      transform: scale(0.9);
-      text-align: center;
-    }
-    .button-container2 {
-      position: absolute;
-      top: 45%;
-      left: 6%;
-      transform: translate(-50%, -50%);
-      transform: scale(0.9);
-      text-align: center;
-    }
+
     button {
-      background-color: #c30404;
-      color: white;
+      background-color: #c3040400;
+      color: rgb(255, 255, 255);
       padding: 15px 32px;
       text-align: center;
       text-decoration: none;
@@ -57,19 +44,65 @@
       margin: 15px;
       cursor: pointer;
     }
+
+    .c-minerva {
+      position: absolute;
+      top: 26%;
+      left: 68%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    .c-alcione {
+      position: absolute;
+      top: 48%;
+      left: 24%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .c-apollo {
+      position: absolute;
+      top: 65%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      display: hidden;
+    }
+
+    .b-minerva {
+      width: 120px;
+      height: 36px;
+    }
+
+    .b-alcione {
+      width: 100px;
+      height: 30px;
+    }
+
+    .b-apollo {
+      width: 100px;
+      height: 30px;
+    }
+
   </style>
 </head>
 <body>
-    
+    <br><br><br><br><br>
   <div class="container">
     <img class="foto" src="pt.png" alt="Errore, ricarica la pagina">
-    <div class="button-container">
-      <a href="https://youtube.com"><button>Pigmalione</button></a>
+    
+    <div class="c-minerva">
+      <a href="https://sites.google.com/view/tuttifiglidizeus/stanze/18-icaro-e-dedalo"><button class="b-minerva"></button></a>
     </div>
 
-    <div class="button-container2">
-        <a href="https://youtube.com"><button>Polifemo</button></a>
-      </div>
+    <div class="c-alcione">
+        <a href="https://sites.google.com/view/tuttifiglidizeus/stanze/18-icaro-e-dedalo"><button class="b-alcione"></button></a>
+    </div>
+
+    <div class="c-apollo">
+    <a href="https://sites.google.com/view/tuttifiglidizeus/stanze/18-icaro-e-dedalo"><button class="b-apollo"></button></a> 
+    </div>
+
     </div>
 </body>
 </html>
