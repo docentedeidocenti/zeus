@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'avenir_next_condensedregular';
+    src: url('avenir_next_condensed.ttf-webfont.woff2') format('woff2'),
+         url('avenir_next_condensed.ttf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
