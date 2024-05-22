@@ -20,10 +20,12 @@
       display: flex;
       flex-direction: column; 
       align-items: left;
-      justify-content: left;
       height: 100vh;
       width: 100%; 
       background-image: url("sfondo.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: #dfa9c3;
       color: white;
     }
 
@@ -46,6 +48,7 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: 75%;
+      margin: 0;
     }
 
     .b2 {
@@ -63,7 +66,7 @@
       cursor: pointer;
       background-color: #ffffff; /* Used if the image is unavailable */
       height: 120px; /* You must set a specified height */
-      width:120px;
+      width: 120px;
       background-position: center; /* Center the image */
       background-repeat: no-repeat; /* Do not repeat the image */
       background-size: 70%; /* Resize the background image to cover the entire container */
@@ -90,13 +93,8 @@
       background-size: 75%; /* Resize the background image to cover the entire container */
     }
 
-    .titolo {
-    
-    }
-
     .zeus {
       font-size: 40px;
-
     }
 
     .party {
@@ -107,10 +105,17 @@
             display: block; /* makes it have a width */
             content: ""; /* clears default height */
             margin-top: 10px; /* change this to whatever height you want it */
+} 
+
+.brtitolo {
+            display: block; /* makes it have a width */
+            content: ""; /* clears default height */
+            margin-top: 38%; /* change this to whatever height you want it */
 }
 
     p {
       font-size: 16px;
+      margin-left: 10px;
       text-align: left;
       align-items: left;
       justify-content: left;
@@ -119,10 +124,14 @@
     .testo {
       transform: scale(0.9);
     }
+
+    h1 {
+      margin-left: 10px;
+    }
   </style>
 </head>
 <body>
-  <br><br><br>
+  <br class="brtitolo">
    <h1>(Party del corpo, vol. III)</h1>
    <p><i>Esito dei laboratori teatrali dell’ITE Salvemini</i></p>
    <br>
@@ -157,8 +166,6 @@
    <br>
    <p class="p">6 giugno 2024, ore 18:00-21:00</p>
    <p class="p">ITE Salvemini, Via Pertini 8, Casalecchio di Reno</p>
-   <br>
-   <br>
    <br>
 </body>
 </html>
